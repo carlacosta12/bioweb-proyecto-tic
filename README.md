@@ -1,1 +1,1 @@
-# bioweb-proyecto-tic
+web explicativa de Mozilla
