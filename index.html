@@ -5,18 +5,15 @@
   <title>Mi página de prueba</title>
 </head>
 <body>
-  <img scr="https://www.mozilla.org/media/protocol/img/logos/firefox/browser/logo.eb1324e44442.svg " 
-alt= "Logo mozilla" ancho = 200 alto =200>
 
   <p>Mozilla es <strong>muy útil.</strong></p>
-  <img src="https://www.mozilla.org/media/protocol/img/logos/firefox/browser/logo.eb1324e44442.svg " 
-alt="Logo mozilla">
+  <img src="https://www.mozilla.org/media/protocol/img/logos/firefox/browser/logo.eb1324e44442.svg " alt="Logo mozilla"  width="200" height="200" />
 
     <head>
         <meta charset="utf-8">
-        <title>Plane</title>
+        <title>Planeta</title>
         <style>
-            #plane {
+            #planeta {
                 position: absolute;
                 left: 0px;
             }
@@ -24,41 +21,40 @@ alt="Logo mozilla">
 
         </head>
     <div>
-        <!-- plane -->
-        <img id="plane" src="assets/plane.gif">
+        <!-- planeta -->
+        <img id="planeta" src="https://assets.sutori.com/user-uploads/image/563480aa-36a1-4282-a77a-0c463a99f71d/1a671672b1c6d4173910338fe1ecfac2.gif" width="200" height="200" />
     </div>
      <script>
-   var planeEl = document.getElementById("plane");
+   var planetaEl = document.getElementById("planeta");
   
   var startTime = new Date().getTime();
-  var airplane = function() {
+  var planeta = function() {
       var currTime = new Date().getTime();
       var secondsElapsed = ((currTime - startTime)/1000);
       var newLeft = secondsElapsed * 100;
-      planeEl.style.left = newLeft + "px"; 
-      window.requestAnimationFrame(airplane);
+      planetaEl.style.left = newLeft + "px"; 
+      window.requestAnimationFrame(planeta);
 };
-  airplane();
+  planeta();
         </script>
 
 
   <h1>¿Qué es Mozilla?</h1>
   <h2>¿Cómo se utiliza?</h2>
 
-<p> In Mozilla we are a community of: </p>
+<p> En Mozilla somos uns comunidad de: </p>
     <ul>
-      <li>technologists</li>
-      <li>thinkers</li>
-      <li>builders</li>
+      <li>tecnólogos</li>
+      <li>pensadores</li>
+      <li>constructores</li>
     </ul>
  
-  <p>working together to keep the Internet alive and accesible so people worldwide can be informed contributors and creators of the Web. We believe this act of human collaboration across an open platform is essential to individual growth and our colletive future.</p>
+  <p>trabajando juntos para mantener vivo y accesible Internet para que las personas de todo el mundo puedan ser contribuyentes y creadores informados de la Web. Creemos que este acto de colaboración humana a través de una plataforma abierta es esencial para el crecimiento individual y nuestro futuro colectivo. </p>
  
-  <p>Read the <a href="https://www.mozilla.org/en-US/about/manifesto/" target="_blank"> Mozilla Manifesto </a> to learn even more about the values and principles that guide the pursuit of our mission.
+  <p>Lee el <a href="https://www.mozilla.org/en-US/about/manifesto/" target="_blank"> Mozilla Manifesto </a>para conocer aún más los valores y principios que guían la consecución de nuestra misión.
+
     </p>
-    <button>Change user </button>
+    <button>Cambiar usuario </button>
     <script src="scripts/main.js"></script>
 
 </html>
-        
-
